@@ -7,6 +7,12 @@
     mc:Ignorable="d">
 
     <Grid x:Name="ContentArea">
-        
+        <ListView
+            x:Name="ContactList"
+            HorizontalAlignment="Left"
+            BorderThickness="1"
+            BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}"
+            SelectionMode="Single"
+            ItemTemplate="{StaticResource ContactListViewTemplate}"/>
     </Grid>
 </Page>

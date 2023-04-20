@@ -15,5 +15,12 @@ public sealed partial class TestPage : Page
     {
         ViewModel = App.GetService<TestViewModel>();
         InitializeComponent();
+        LoadContacts();
+        
+    }
+
+    public async void LoadContacts()
+    {
+        ContactList.ItemsSource = await ContentClasses.Contact.GetContactsAsync();
     }
 }

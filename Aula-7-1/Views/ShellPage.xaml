@@ -50,7 +50,7 @@
                 </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_Test" helpers:NavigationHelper.NavigateTo="Aula_7_1.ViewModels.TestViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE8FD;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
             </NavigationView.MenuItems>
